@@ -1,95 +1,23 @@
 body {
-  color: #40514E;
-  margin: 0;
   background-color: #DAE5D0;
-  font-family: 'Montserrat', sans-serif;: 'Montserrat', sans-serif;
+ font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
 }
 
- h1 {
-  font-size: 2.5rem;
-  font-family: 'Montserrat', sans-serif;: 'Montserrat', sans-serif;
-}
-
-h2 {
-
-  font-weight:bolder;
+ h1, h2, h3, h4 {
   color:  #395144;
-  font-family: 'Montserrat', sans-serif;: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  padding-top: -15px;
-  padding-left: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-weight:bolder;
+
 }
 
-h3 {
-  color: Black;
-  margin-bottom: 2px;
-  font-family: 'Montserrat', sans-serif;: 'Montserrat', sans-serif;
-}
-h4{
-  margin-top: -20px;
-  color: Black;
-  padding-bottom: 10px;
-  text-align: justify;
-}
 
-p {
-  line-height: 1.5;
-  color: Black;
-  padding-bottom:10px;
-  text-align: justify;
-}
-
-hr {
-  border: dotted black 2px;
-  border-bottom: none;
-  width: 500px;
-  margin: -64px ;
-  float: right;
-  margin-right: 2px ;
-}
-
+/* top-container  */
 .top-container {
-  height: 80px;
   width: 100%;
   background-color: #395144;
   position: fixed;
   top: 0;
-}
-.top-text{
-  color: white;
-  border-right:500px:
-  margin-top: 20px;
-  margin-left: 16%;
-  font-family: 'Montserrat', sans-serif;: 'Sacramento', cursive;
-  position: absolute;
-
-}
-.image-github{
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 81%;
-}
-.image-linkedin{
-
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 77%;
-
+  z-index: 1;
 }
 
-.image-gmail{
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 73%;
-}
-.image-phone{
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 69%;
-}
 .image15{
   border-radius:15%;
 }
@@ -98,10 +26,97 @@ hr {
   border-radius:50%;
 }
 
-/*myimage from here */
+/* Nav Bar */
+.navbar-brand{
+margin-left: 15%;
+font-size: 35px;
 
+}
+.navbar-nav{
+  margin-right: 22%;
+}
+.nav-item{
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+
+/* middle-container */
+.middle-container {
+  margin: 100px 0px 20px 0px;
+}
+
+.introduction{
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+
+/* box definition */
+.box{
+  color: Black;
+  width: 70%;
+  margin: 10px auto 10px auto;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+
+}
+.info{
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align:justify;
+}
+
+
+.subtitle{
+   font-weight:bold;
+   font-size: 2rem;
+   padding-left: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.inner-title{
+  font-size: 1.3rem;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  text-align: left;
+
+}
+
+.projects-link{
+  text-decoration: underline;
+}
+.projects-link:hover{
+  color: blue;
+}
+
+.link{
+ color:  #395144;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.card{
+  border: none;
+}
+
+
+.bottom-container {
+    background-color: #395144;
+    padding: 20px 0 20px;
+}
+/* MY IMAGE */
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+/* body {font-family: Arial, Helvetica, sans-serif;} */
 
 #myImg {
   position: absolute;
@@ -197,178 +212,3 @@ transition: 0.3s;
   }
 }
 </style>
-
-/* until here */
-
-
-
-.top-link{
-  color: Black;
-  font-size: 2.625rem;
-  margin: -2px -507px -44px -688px;
-  font-family: 'Montserrat', sans-serif;: 'Sacramento', cursive;
-}
-.top-linkedin-image{
-  margin: 10px 10px 10px 10px;
-  width:300;
-  height:300;
-}
-
-.box{
-  color: Black;
-  width: 70%;
-  margin: 10px auto 10px auto;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  text-align: left;
-  background-color: white;
-  border-radius: 15px;
-
-}
-.info{
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 15px;
-  margin-top: 10px;
-  text-align:justify;
-}
-.column-skills {
-
-  float: left;
-  width: 25%;
-  height: 30%;
-  margin-bottom:-25px;
-}
-.row-skills{
-    margin: 0px -5px 0px 10px;
-}
-.row-skills:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.Army_Service{
-    margin: -72px 10px 10px 10px;
-  margin-left: 40px
-
-}
-.hr_Army_Service{
-  width: 470px;
-}
-
-
-.link:link {
-  text-decoration: none;
-
-}
-
-.link:visited {
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
-}
-
-.link:active {
-  text-decoration: underline;
-  color: Black;
-}
-
-.link{
-  color: Black;
-}
-.underline-link{
-  color: Black;
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;: Arial, Helvetica, sans-serif;
-}
-
-/* Float four columns side by side */
-.column-projects {
-  float: left;
-  width: 33%;
-  height: 30%
-  margin-bottom:-25px;
-}
-
-/* Remove extra left and right margins, due to padding */
-/* .row {margin: 0 -5px;} */
-.row {
-  margin: 0px -5px 0px 10px;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
-/* Style the counter cards */
-.card {
-  text-align: left;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 10px;
-  margin-right: 10px;
-
-}
-
-.middle-container {
-  margin: 100px 0px 20px 0px;
-}
-.intro {
-  width: 40%;
-  margin: auto;
-  font-size: 1.3rem;
-
-}
-
-.bottom-container {
-  background-color: #395144;
-  padding: 20px 0 20px;
-}
-
-.pro {
-  text-decoration: underline;
-}
-
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
-.code-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
